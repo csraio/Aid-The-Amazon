@@ -10,24 +10,40 @@
     <body>
         <ul>
         <li><a href="amazon.html">Home</a></li>
-        <li><a href="#news">News</a></li>
+        
 
 
         <div class="dropdown">  
-            <span><li><a href="#contact">Contact</a></li></span>
-            <div class="dropdown-content">
-                <a href="https://www.instagram.com/aidtotheamazon/">
-                    <div class="instacontaner">
-                      <img class="insta" src="http://pngimg.com/uploads/instagram/instagram_PNG12.png"/>
-                  </div>
-                  </a>
-                  <a href="https://www.facebook.com/Aid-to-the-Amazon-110154517202402/?modal=admin_todo_tour">
-                    <div class="FaceBcontaner">
+          <span><li><a href="contact.html">Contact</a></li></span>
+          <div class="dropdown-content">
+              <a class="customdrop" href="contact.html">Contact</a>
+              <a href="https://www.instagram.com/aidtotheamazon/">
+                  <div class="instacontaner">
+                    <img class="insta" src="http://pngimg.com/uploads/instagram/instagram_PNG12.png"/>
+                </div>
+                </a>
+              <a href="https://www.facebook.com/Aid-to-the-Amazon-110154517202402/?modal=admin_todo_tour">
+                  <div class="FaceBcontaner">
                       <img class="FaceBook" src="http://www.transparentpng.com/thumb/facebook-logo/facebook-hd-logo-9.png"/>
                   </div>
                   </a>
-            </div>
-        </div>
+              <a>
+              <div class="mailcontainer">
+                  <img class="Gmail" src="http://assets.stickpng.com/thumbs/5847fafdcef1014c0b5e48ce.png">
+                      <script>
+                          function copypaste() {
+                            var copyText = "aidtotheamazon@gmail.com";
+                            copyText.select();
+                            copyText.setSelectionRange(0, 99999)
+                            document.execCommand("copy");
+                            alert("Copied the text: " + copyText);
+                          }
+                      </script>
+                      <button onclick="copypaste()">Copy email</button>
+              </div>
+              </a>
+          </div>
+      </div>
         <div class="formcontainer">
           <h3>Contact Us!</h3>
           <form action="/action_page.php">

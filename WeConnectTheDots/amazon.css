@@ -35,6 +35,11 @@ div {
     border-style: none;
 }
 
+.customdrop{
+  padding: 10px;
+
+}
+
 
 .smallTopmargin{
     margin-top: 10px;
@@ -103,6 +108,7 @@ ul {
 
 
   .instacontainer{
+    /* padding-top: 30px; */
     width: 100px;
     display: contents;
 
