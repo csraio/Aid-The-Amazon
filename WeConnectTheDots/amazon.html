@@ -30,16 +30,16 @@
                 <a>
                 <div class="mailcontainer">
                     <img class="Gmail" src="http://assets.stickpng.com/thumbs/5847fafdcef1014c0b5e48ce.png">
-                        <button onclick="myFunction()">Copy email</button>
                         <script>
-                            function myFunction() {
-                              var copyText = document.getElementById("myInput");
+                            function copypaste() {
+                              var copyText = "aidtotheamazon@gmail.com";
                               copyText.select();
                               copyText.setSelectionRange(0, 99999)
                               document.execCommand("copy");
-                              alert("Copied the text: " + copyText.value);
+                              alert("Copied the text: " + copyText);
                             }
-                            </script>
+                        </script>
+                        <button onclick="copypaste()">Copy email</button>
                 </div>
                 </a>
             </div>
